@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1B10041C7396A600B43F88 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B10031C7396A600B43F88 /* DateUtils.m */; };
+		2A1B10071C73992C00B43F88 /* LastCameraImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B10061C73992C00B43F88 /* LastCameraImageViewController.m */; };
+		2A21EE211C70F24F0095EBA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE201C70F24F0095EBA6 /* main.m */; };
+		2A21EE241C70F24F0095EBA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE231C70F24F0095EBA6 /* AppDelegate.m */; };
+		2A21EE2A1C70F24F0095EBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A21EE281C70F24F0095EBA6 /* Main.storyboard */; };
+		2A21EE2C1C70F24F0095EBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A21EE2B1C70F24F0095EBA6 /* Assets.xcassets */; };
+		2A21EE2F1C70F24F0095EBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A21EE2D1C70F24F0095EBA6 /* LaunchScreen.storyboard */; };
+		2A21EE471C711B650095EBA6 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE381C711B650095EBA6 /* AccessToken.m */; };
+		2A21EE481C711B650095EBA6 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE3A1C711B650095EBA6 /* FirebaseManager.m */; };
+		2A21EE491C711B650095EBA6 /* NestAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE3C1C711B650095EBA6 /* NestAuthManager.m */; };
+		2A21EE4B1C711B650095EBA6 /* NestStructureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE401C711B650095EBA6 /* NestStructureManager.m */; };
+		2A21EE4C1C711B650095EBA6 /* NestThermostatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE421C711B650095EBA6 /* NestThermostatManager.m */; };
+		2A21EE4D1C711B650095EBA6 /* NestWebViewAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE441C711B650095EBA6 /* NestWebViewAuthController.m */; };
+		2A21EE4E1C711B650095EBA6 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE461C711B650095EBA6 /* Thermostat.m */; };
+		2A21EE541C711BFD0095EBA6 /* NestConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE511C711BFD0095EBA6 /* NestConnectViewController.m */; };
+		2A21EE591C711C4F0095EBA6 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE581C711C4F0095EBA6 /* UIColor+Custom.m */; };
+		2A21EE5B1C711C6B0095EBA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A21EE5A1C711C6B0095EBA6 /* Localizable.strings */; };
+		2A21EE5E1C711C840095EBA6 /* Texts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE5D1C711C840095EBA6 /* Texts.m */; };
+		2A21EE601C711E760095EBA6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE5F1C711E760095EBA6 /* SystemConfiguration.framework */; };
+		2A21EE631C711E9D0095EBA6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE611C711E800095EBA6 /* libc++.tbd */; };
+		2A21EE651C711EA70095EBA6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE641C711EA70095EBA6 /* libicucore.tbd */; };
+		2A21EE671C711EAF0095EBA6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE661C711EAF0095EBA6 /* CFNetwork.framework */; };
+		2A21EE691C711EB50095EBA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE681C711EB50095EBA6 /* Security.framework */; };
+		2A21EE6B1C711ECC0095EBA6 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE6A1C711ECC0095EBA6 /* Firebase.framework */; };
+		2A21EE6E1C711EF90095EBA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A21EE6D1C711EF90095EBA6 /* Foundation.framework */; };
+		2A21EE711C711FB70095EBA6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE6F1C711FB70095EBA6 /* Constants.m */; };
+		2A21EE741C7132DD0095EBA6 /* DevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21EE731C7132DD0095EBA6 /* DevicesViewController.m */; };
+		2A839B7C1C71CB7100872FB6 /* ThermostatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A839B7B1C71CB7100872FB6 /* ThermostatTableViewCell.m */; };
+		2A839B7F1C71DE7C00872FB6 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A839B7E1C71DE7C00872FB6 /* Camera.m */; };
+		2A839B821C71DF7300872FB6 /* NestCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A839B811C71DF7300872FB6 /* NestCameraManager.m */; };
+		2A839B851C72787400872FB6 /* CameraTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A839B841C72787400872FB6 /* CameraTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A1B10021C7396A600B43F88 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		2A1B10031C7396A600B43F88 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		2A1B10051C73992C00B43F88 /* LastCameraImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastCameraImageViewController.h; sourceTree = "<group>"; };
+		2A1B10061C73992C00B43F88 /* LastCameraImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastCameraImageViewController.m; sourceTree = "<group>"; };
+		2A21EE1C1C70F24F0095EBA6 /* NestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A21EE201C70F24F0095EBA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A21EE221C70F24F0095EBA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A21EE231C70F24F0095EBA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A21EE291C70F24F0095EBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A21EE2B1C70F24F0095EBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A21EE2E1C70F24F0095EBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A21EE301C70F24F0095EBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A21EE371C711B650095EBA6 /* AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		2A21EE381C711B650095EBA6 /* AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		2A21EE391C711B650095EBA6 /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
+		2A21EE3A1C711B650095EBA6 /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
+		2A21EE3B1C711B650095EBA6 /* NestAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestAuthManager.h; sourceTree = "<group>"; };
+		2A21EE3C1C711B650095EBA6 /* NestAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestAuthManager.m; sourceTree = "<group>"; };
+		2A21EE3F1C711B650095EBA6 /* NestStructureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestStructureManager.h; sourceTree = "<group>"; };
+		2A21EE401C711B650095EBA6 /* NestStructureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestStructureManager.m; sourceTree = "<group>"; };
+		2A21EE411C711B650095EBA6 /* NestThermostatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestThermostatManager.h; sourceTree = "<group>"; };
+		2A21EE421C711B650095EBA6 /* NestThermostatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestThermostatManager.m; sourceTree = "<group>"; };
+		2A21EE431C711B650095EBA6 /* NestWebViewAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestWebViewAuthController.h; sourceTree = "<group>"; };
+		2A21EE441C711B650095EBA6 /* NestWebViewAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestWebViewAuthController.m; sourceTree = "<group>"; };
+		2A21EE451C711B650095EBA6 /* Thermostat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thermostat.h; sourceTree = "<group>"; };
+		2A21EE461C711B650095EBA6 /* Thermostat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thermostat.m; sourceTree = "<group>"; };
+		2A21EE501C711BFD0095EBA6 /* NestConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestConnectViewController.h; sourceTree = "<group>"; };
+		2A21EE511C711BFD0095EBA6 /* NestConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestConnectViewController.m; sourceTree = "<group>"; };
+		2A21EE571C711C4F0095EBA6 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		2A21EE581C711C4F0095EBA6 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		2A21EE5A1C711C6B0095EBA6 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2A21EE5C1C711C840095EBA6 /* Texts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texts.h; sourceTree = "<group>"; };
+		2A21EE5D1C711C840095EBA6 /* Texts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texts.m; sourceTree = "<group>"; };
+		2A21EE5F1C711E760095EBA6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2A21EE611C711E800095EBA6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2A21EE641C711EA70095EBA6 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2A21EE661C711EAF0095EBA6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2A21EE681C711EB50095EBA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A21EE6A1C711ECC0095EBA6 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = third_party/Firebase.framework; sourceTree = "<group>"; };
+		2A21EE6D1C711EF90095EBA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A21EE6F1C711FB70095EBA6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		2A21EE701C711FB70095EBA6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2A21EE721C7132DD0095EBA6 /* DevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesViewController.h; sourceTree = "<group>"; };
+		2A21EE731C7132DD0095EBA6 /* DevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesViewController.m; sourceTree = "<group>"; };
+		2A839B7A1C71CB7000872FB6 /* ThermostatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermostatTableViewCell.h; sourceTree = "<group>"; };
+		2A839B7B1C71CB7100872FB6 /* ThermostatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermostatTableViewCell.m; sourceTree = "<group>"; };
+		2A839B7D1C71DE7C00872FB6 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		2A839B7E1C71DE7C00872FB6 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		2A839B801C71DF7300872FB6 /* NestCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestCameraManager.h; sourceTree = "<group>"; };
+		2A839B811C71DF7300872FB6 /* NestCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestCameraManager.m; sourceTree = "<group>"; };
+		2A839B831C72787400872FB6 /* CameraTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTableViewCell.h; sourceTree = "<group>"; };
+		2A839B841C72787400872FB6 /* CameraTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A21EE191C70F24F0095EBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A21EE6E1C711EF90095EBA6 /* Foundation.framework in Frameworks */,
+				2A21EE6B1C711ECC0095EBA6 /* Firebase.framework in Frameworks */,
+				2A21EE691C711EB50095EBA6 /* Security.framework in Frameworks */,
+				2A21EE671C711EAF0095EBA6 /* CFNetwork.framework in Frameworks */,
+				2A21EE651C711EA70095EBA6 /* libicucore.tbd in Frameworks */,
+				2A21EE631C711E9D0095EBA6 /* libc++.tbd in Frameworks */,
+				2A21EE601C711E760095EBA6 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A21EE131C70F24F0095EBA6 = {
+			isa = PBXGroup;
+			children = (
+				2A21EE1E1C70F24F0095EBA6 /* NestApp */,
+				2A21EE6C1C711EDA0095EBA6 /* Frameworks */,
+				2A21EE1D1C70F24F0095EBA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A21EE1D1C70F24F0095EBA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE1C1C70F24F0095EBA6 /* NestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A21EE1E1C70F24F0095EBA6 /* NestApp */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE361C711B650095EBA6 /* NestSDK */,
+				2A21EE4F1C711BFD0095EBA6 /* ViewControllers */,
+				2A21EE561C711C4F0095EBA6 /* Extensions */,
+				2A21EE221C70F24F0095EBA6 /* AppDelegate.h */,
+				2A21EE231C70F24F0095EBA6 /* AppDelegate.m */,
+				2A21EE281C70F24F0095EBA6 /* Main.storyboard */,
+				2A21EE701C711FB70095EBA6 /* Constants.h */,
+				2A21EE6F1C711FB70095EBA6 /* Constants.m */,
+				2A21EE2B1C70F24F0095EBA6 /* Assets.xcassets */,
+				2A21EE2D1C70F24F0095EBA6 /* LaunchScreen.storyboard */,
+				2A21EE301C70F24F0095EBA6 /* Info.plist */,
+				2A21EE1F1C70F24F0095EBA6 /* Supporting Files */,
+				2A21EE5A1C711C6B0095EBA6 /* Localizable.strings */,
+			);
+			path = NestApp;
+			sourceTree = "<group>";
+		};
+		2A21EE1F1C70F24F0095EBA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE201C70F24F0095EBA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A21EE361C711B650095EBA6 /* NestSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE371C711B650095EBA6 /* AccessToken.h */,
+				2A21EE381C711B650095EBA6 /* AccessToken.m */,
+				2A21EE391C711B650095EBA6 /* FirebaseManager.h */,
+				2A21EE3A1C711B650095EBA6 /* FirebaseManager.m */,
+				2A21EE3B1C711B650095EBA6 /* NestAuthManager.h */,
+				2A21EE3C1C711B650095EBA6 /* NestAuthManager.m */,
+				2A21EE3F1C711B650095EBA6 /* NestStructureManager.h */,
+				2A21EE401C711B650095EBA6 /* NestStructureManager.m */,
+				2A21EE411C711B650095EBA6 /* NestThermostatManager.h */,
+				2A21EE421C711B650095EBA6 /* NestThermostatManager.m */,
+				2A21EE431C711B650095EBA6 /* NestWebViewAuthController.h */,
+				2A21EE441C711B650095EBA6 /* NestWebViewAuthController.m */,
+				2A21EE451C711B650095EBA6 /* Thermostat.h */,
+				2A21EE461C711B650095EBA6 /* Thermostat.m */,
+				2A839B7D1C71DE7C00872FB6 /* Camera.h */,
+				2A839B7E1C71DE7C00872FB6 /* Camera.m */,
+				2A839B801C71DF7300872FB6 /* NestCameraManager.h */,
+				2A839B811C71DF7300872FB6 /* NestCameraManager.m */,
+			);
+			path = NestSDK;
+			sourceTree = "<group>";
+		};
+		2A21EE4F1C711BFD0095EBA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE501C711BFD0095EBA6 /* NestConnectViewController.h */,
+				2A21EE511C711BFD0095EBA6 /* NestConnectViewController.m */,
+				2A21EE721C7132DD0095EBA6 /* DevicesViewController.h */,
+				2A21EE731C7132DD0095EBA6 /* DevicesViewController.m */,
+				2A839B7A1C71CB7000872FB6 /* ThermostatTableViewCell.h */,
+				2A839B7B1C71CB7100872FB6 /* ThermostatTableViewCell.m */,
+				2A839B831C72787400872FB6 /* CameraTableViewCell.h */,
+				2A839B841C72787400872FB6 /* CameraTableViewCell.m */,
+				2A1B10051C73992C00B43F88 /* LastCameraImageViewController.h */,
+				2A1B10061C73992C00B43F88 /* LastCameraImageViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2A21EE561C711C4F0095EBA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE571C711C4F0095EBA6 /* UIColor+Custom.h */,
+				2A21EE581C711C4F0095EBA6 /* UIColor+Custom.m */,
+				2A21EE5C1C711C840095EBA6 /* Texts.h */,
+				2A21EE5D1C711C840095EBA6 /* Texts.m */,
+				2A1B10021C7396A600B43F88 /* DateUtils.h */,
+				2A1B10031C7396A600B43F88 /* DateUtils.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A21EE6C1C711EDA0095EBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A21EE6D1C711EF90095EBA6 /* Foundation.framework */,
+				2A21EE6A1C711ECC0095EBA6 /* Firebase.framework */,
+				2A21EE681C711EB50095EBA6 /* Security.framework */,
+				2A21EE661C711EAF0095EBA6 /* CFNetwork.framework */,
+				2A21EE641C711EA70095EBA6 /* libicucore.tbd */,
+				2A21EE611C711E800095EBA6 /* libc++.tbd */,
+				2A21EE5F1C711E760095EBA6 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A21EE1B1C70F24F0095EBA6 /* NestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A21EE331C70F24F0095EBA6 /* Build configuration list for PBXNativeTarget "NestApp" */;
+			buildPhases = (
+				2A21EE181C70F24F0095EBA6 /* Sources */,
+				2A21EE191C70F24F0095EBA6 /* Frameworks */,
+				2A21EE1A1C70F24F0095EBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestApp;
+			productName = NestApp;
+			productReference = 2A21EE1C1C70F24F0095EBA6 /* NestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A21EE141C70F24F0095EBA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					2A21EE1B1C70F24F0095EBA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A21EE171C70F24F0095EBA6 /* Build configuration list for PBXProject "NestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A21EE131C70F24F0095EBA6;
+			productRefGroup = 2A21EE1D1C70F24F0095EBA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A21EE1B1C70F24F0095EBA6 /* NestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A21EE1A1C70F24F0095EBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A21EE2F1C70F24F0095EBA6 /* LaunchScreen.storyboard in Resources */,
+				2A21EE5B1C711C6B0095EBA6 /* Localizable.strings in Resources */,
+				2A21EE2C1C70F24F0095EBA6 /* Assets.xcassets in Resources */,
+				2A21EE2A1C70F24F0095EBA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A21EE181C70F24F0095EBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A21EE5E1C711C840095EBA6 /* Texts.m in Sources */,
+				2A839B821C71DF7300872FB6 /* NestCameraManager.m in Sources */,
+				2A21EE4E1C711B650095EBA6 /* Thermostat.m in Sources */,
+				2A839B7C1C71CB7100872FB6 /* ThermostatTableViewCell.m in Sources */,
+				2A839B851C72787400872FB6 /* CameraTableViewCell.m in Sources */,
+				2A21EE241C70F24F0095EBA6 /* AppDelegate.m in Sources */,
+				2A21EE4D1C711B650095EBA6 /* NestWebViewAuthController.m in Sources */,
+				2A21EE711C711FB70095EBA6 /* Constants.m in Sources */,
+				2A21EE481C711B650095EBA6 /* FirebaseManager.m in Sources */,
+				2A21EE4C1C711B650095EBA6 /* NestThermostatManager.m in Sources */,
+				2A21EE491C711B650095EBA6 /* NestAuthManager.m in Sources */,
+				2A21EE211C70F24F0095EBA6 /* main.m in Sources */,
+				2A21EE471C711B650095EBA6 /* AccessToken.m in Sources */,
+				2A1B10071C73992C00B43F88 /* LastCameraImageViewController.m in Sources */,
+				2A1B10041C7396A600B43F88 /* DateUtils.m in Sources */,
+				2A21EE4B1C711B650095EBA6 /* NestStructureManager.m in Sources */,
+				2A839B7F1C71DE7C00872FB6 /* Camera.m in Sources */,
+				2A21EE591C711C4F0095EBA6 /* UIColor+Custom.m in Sources */,
+				2A21EE741C7132DD0095EBA6 /* DevicesViewController.m in Sources */,
+				2A21EE541C711BFD0095EBA6 /* NestConnectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A21EE281C70F24F0095EBA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A21EE291C70F24F0095EBA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A21EE2D1C70F24F0095EBA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A21EE2E1C70F24F0095EBA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A21EE311C70F24F0095EBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A21EE321C70F24F0095EBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A21EE341C70F24F0095EBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party",
+				);
+				INFOPLIST_FILE = NestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A21EE351C70F24F0095EBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party",
+				);
+				INFOPLIST_FILE = NestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A21EE171C70F24F0095EBA6 /* Build configuration list for PBXProject "NestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A21EE311C70F24F0095EBA6 /* Debug */,
+				2A21EE321C70F24F0095EBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A21EE331C70F24F0095EBA6 /* Build configuration list for PBXNativeTarget "NestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A21EE341C70F24F0095EBA6 /* Debug */,
+				2A21EE351C70F24F0095EBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A21EE141C70F24F0095EBA6 /* Project object */;
+}

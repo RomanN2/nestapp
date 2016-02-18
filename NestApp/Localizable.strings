@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  NestApp
+
+  Created by Roman Nazarkevych on 2/14/16.
+  Copyright © 2016 1. All rights reserved.
+*/
+
+"NestConnectButtonTitle" = "Connect with your nest account!";
+"Welcome" = "Welcome";
+"Loading" = "Loading...";
+"ConnectWithNest" = "Connect with Nest";
+"Thermostats" = "Thermostats";
+"Devices" = "Home devices";
+"NoThermostatsMessage" = "You don't have any thermostats";
+"CurrentTemperature" = "Current temperature:";
+"TargetTemperature" = "Target temperature:";
